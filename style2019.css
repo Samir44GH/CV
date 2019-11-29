@@ -16,7 +16,7 @@ header{
 	display: flex;
 	align-items: flex-end;
 	border: 1px dashed blue;
-	font-size: 5px;
+	font-size: 15px;
 }
 
 
@@ -27,42 +27,68 @@ header{
 	font-family: "Kaushan Script";
 	border: 1px dashed black;
 	width: 70%;
+	font-size: 20px;
 }
 
 .photo {
 	display: inline-block;
+	width: 30%;
 }
 
 .photo1 {
-	width: 40px;
-	height: 50px;
-	padding:;
+	width: 200px;
+	margin: 0 0 50px 15px;
+	border-radius: 400px;
 }
 
 .experience {
 	display: inline-block;
-	width: 65%;
+	width: 63%;
 	border: 1px dashed red;
 	padding: 10px;
+	font-size: 17px;
 }
 
+.experience p {
+	display: block;
+	margin: 1.5em 0;
+}
 .competences {
 	display: inline-block;
-	width: 30%;
-	margin-bottom: 50px;
+	width: 33%;
+	padding: 25px 0 25px 0;
 	border: 1px dashed pink;
 	vertical-align: top;
-	padding: 10px;
+	font-size: 17px;
 	}
 
 .diplomes {
 	display: inline-block;
-	border: 1px dashed green;
 	vertical-align: top;
+	border: 1px dashed green;
+	width: 33%;
+	padding: 25px 0 25px 0;
+	font-size: 17px;
+	margin-top: -300px;
+}
+
+.loisirs {
+	display: inline-block; 
+	width: 33%;
+	padding: 25px 0 25px 0;
+	font-size: 17px;
+	vertical-align: top;
+	border: 1px dashed green;
+	margin: -100px 0 0 -200px;
+}
+
+li {
+	margin: 20px 0 0 20px;
+	margin-left: 0px;  
 }
 h2{
 	font-family: "Kaushan Script";
-	text-decoration-line: underline;
+	text-align: center;
 }
 
 h1{
