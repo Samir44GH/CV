@@ -9,13 +9,11 @@ body{
 	background: url("fdp.png");
 	background-attachment: fixed;
 	background-image: no-repeat;
-	border: 2px solid black;
 }
 
 header{
 	display: flex;
 	align-items: flex-end;
-	border: 1px dashed blue;
 	font-size: 15px;
 }
 
@@ -25,7 +23,6 @@ header{
 	text-align: center;
 	text-shadow: 5px 5px 6px grey;
 	font-family: "Kaushan Script";
-	border: 1px dashed black;
 	width: 70%;
 	font-size: 20px;
 }
@@ -42,57 +39,89 @@ header{
 }
 
 .experience {
+
 	display: inline-block;
 	width: 63%;
-	border: 1px dashed red;
-	padding: 10px;
+	
+	padding: 10px 10px 5px 10px;
 	font-size: 17px;
 }
 
 .experience p {
 	display: block;
-	margin: 1.5em 0;
+	margin: 1.8em 0;
+	font-family: 'Comic Sans MS';
 }
 .competences {
 	display: inline-block;
 	width: 33%;
-	padding: 25px 0 25px 0;
-	border: 1px dashed pink;
+	padding: 10px 0 20px 0;
 	vertical-align: top;
 	font-size: 17px;
+	font-family: 'Comic Sans MS';
+	margin-right: -2px;
+	border-top: 2px groove black;
+	border-left: 2px groove black;
+	border-right: 2px groove black;
+	
 	}
 
 .diplomes {
 	display: inline-block;
 	vertical-align: top;
-	border: 1px dashed green;
 	width: 33%;
-	padding: 25px 0 25px 0;
+	padding: 20px 0 25px 0;
 	font-size: 17px;
-	margin-top: -300px;
+	margin-top: -400px;
+	font-family: 'Comic Sans MS';
+	border-left: 2px groove black;
+	border-right: 2px groove black;
+	
 }
 
 .loisirs {
 	display: inline-block; 
 	width: 33%;
-	padding: 25px 0 25px 0;
+	padding: 15px 10px 0 -5px;
 	font-size: 17px;
+	margin: 0 0 0 -265px;
 	vertical-align: top;
-	border: 1px dashed green;
-	margin: -100px 0 0 -200px;
+	font-family: 'Comic Sans MS';
+	border-left: 2px groove black;
+	border-bottom: 3px groove black;
+	
+}
+
+.rqth {
+	display: inline-block;
+	width: 66%;
+	text-align: center;
+	font-family: 'Comic Sans MS';
+	border-top: 2px groove black;
+	border-right: 2px groove black;
+	border-bottom: 3px groove black;
+	margin: 1px 0 0 -4px;
+	padding: 49.5px 0 55px 0;
+
+
+	
+	
 }
 
 li {
-	margin: 20px 0 0 20px;
+	margin: 25px 0 0 20px;
 	margin-left: 0px;  
 }
-h2{
+
+h2{ 
 	font-family: "Kaushan Script";
 	text-align: center;
+	text-shadow: 5px 5px 6px grey;
 }
 
-h1{
+h1 {
 	font-family: Comic Sans MS;
+	text-shadow: 5px 5px 6px grey;
 }
 
 
